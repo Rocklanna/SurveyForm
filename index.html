@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anamati Dating Survey Form</title>
+  </head>
+  <body>
+     <main >
+         <h1 id="title">Anamati Dating Survey </h1>
+    <p id="description">Thank you for taking the time to help us improve our dating platform</p>
+       <form id="survey-form">
+        <div> 
+          <label id="name-label" for="name" class="labelone">Name:</label><br><input id="name" type ="text" placeholder="Enter your name" class="text" required>
+        </div>
+        <div>
+         <label id="email-label" for="email" class="labelone">Email:</label><br><input id="email" type ="email" placeholder="Enter your email" class="text" required>
+        </div>
+        <fieldset>
+         <legend>I am a:</legend><input type ="radio" value="male" name="sex"><label for="Male" class="labeltwo">Male</label><br><input type ="radio" value="female" name="sex"><label class="labeltwo"for="female">Female</label>
+         </fieldset>
+         <fieldset>
+         <legend>Seeking a:</legend>
+         <input type ="radio" value="male" name="sextype"><label for="Male" class="labeltwo">Male</label><br>
+        <input type ="radio" value="female" name="sextype"><label for="female" class="labeltwo">Female</label>
+         </fieldset>
+         <br>
+         <div>
+         <label id="number-label" for="age" class="labelone">Age:</label><br><input id="number" class="text" type ="number" placeholder="Enter your age" min="18" max="70"required>
+         </div>
+         <div>
+         <p class="labelone">What best describes your expectation:</p>
+         <select id="dropdown">
+           <option value="hook up">hook up</option>
+           <option value="casual">casual</option>
+           <option value="long distance">long distance</option>
+           <option value="marriage"></option>
+         </select>
+         </div>
+      <div>
+           <p class="labelone">What is your language of choice with your companion (check all that apply)</p>
+          <div> 
+            <input type="checkbox" name="language" value="english"><label for="english" class="labeltwo">English</label>
+          </div>
+         <div>
+           <input type="checkbox" name="language" value="french"><label for="french" class="labeltwo">French</label>
+        </div>
+        <div>
+            <input type="checkbox" name="language" value="spanish"><label for="spanish" class="labeltwo">Spanish</label>
+        </div>
+        <div>
+           <input type="checkbox" name="language" value="german"><label for="german" class="labeltwo">German</label>
+        </div>
+        <div>
+           <input type="checkbox" name="language" value="chinese"><label for="chinese" class="labeltwo">Chinese</label>
+        </div>
+        <div>
+           <input type="checkbox" name="language" value="arabic"><label for="arabic" class="labeltwo">Arabic</label>
+        </div>
+        <div>
+           <input type="checkbox" name="language" value="russian"><label for="russian" class="labeltwo">Russian</label>
+        </div>  
+    </div>
+    <div>
+      <p class="labelthree">Any other comment or suggestions to help us improve our site?</p>
+      <textarea name="comment">Enter your comment here...</textarea>
+    </div>
+         <input id="submit" type="submit" value="Submit">
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
